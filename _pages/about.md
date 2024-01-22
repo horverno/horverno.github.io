@@ -19,4 +19,4 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Research group leader at the Autonomous Transport Systems Research Group, Vehicle Industry Research Center, Széchenyi István University.
+I am a Research group leader at the [Autonomous Transport Systems Research Group](https://jkk-web.sze.hu/szakmai-kompetenciak/autonom-kozlekedesi-rendszerek-kozpont/?lang=en), Vehicle Industry Research Center, Széchenyi István University.

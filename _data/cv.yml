@@ -2,7 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: Ernő Horváth
+      value: Dr. Ernő Horváth
     - name: Languages
       value: Hungarian, English, German
 
@@ -44,7 +44,7 @@
             - Our primary focus encompasses the exploration of developmental and educational challenges within autonomous transport systems, as well as a comprehensive understanding of the collaborative dynamics between individuals and vehicles. Anticipating the safety and viability of fully automated transportation, we are actively engaged in research endeavors to prepare for the forthcoming technological advancements in autonomous vehicles. Through these developments, we acquire distinctive expertise in informatics, mechatronics, robotics, and artificial intelligence. Our commitment is directed towards ensuring that the future of transportation is characterized by uncompromising safety and sustainability.
     - title: Research Engineer
       institution: Vehicle Industry Research Center of Széchenyi István University 
-      year: 2010 - 2020
+      year: 2011 - 2020
 
 
 - title: Academic Interests
