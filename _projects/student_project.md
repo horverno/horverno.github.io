@@ -1,15 +1,17 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: Student projects
+description: Variois student projects
+img: assets/img/7.jpg
+importance: 3
+category: work
 ---
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8yfCvTJF5I0?si=DCickmoN4fvMkY-v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
