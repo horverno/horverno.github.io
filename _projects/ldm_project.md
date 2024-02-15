@@ -1,25 +1,15 @@
 ---
 layout: page
 title: Linear Driver Model
-description: a project with a background image
+description: Human-Like Behavior of Automated Driving Systems
 img: assets/img/12.jpg
 importance: 1
 category: work
-related_publications: einstein1956investigations, einstein1950meaning
+related_publications: igneczi2024curve, igneczi2023lineardrivermodel
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Algorithms for driver model analysis and prototypes for ADAS functions endowed with human-like features.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -34,14 +24,6 @@ To give your project a background in the portfolio page, just add the img tag to
 </div>
 <div class="caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
 </div>
 
 You can also put regular text between your rows of images.
@@ -62,20 +44,22 @@ You describe how you toiled, sweated, *bled* for your project, and then... you r
 </div>
 
 
-The code is simple.
+The code is simple. {% cite igneczi2024curve %} {% cite igneczi2023lineardrivermodel %} {% cite SAMI23NodePointOptimization %} .
 Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
 To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
 Here's the code for the last row of images above:
 
 {% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+``` py
+from geometry_msgs.msg import Quaternion
+
+# Create a list of floats, which is compatible with tf2
+# Quaternion methods
+quat_tf = [0.0, 1.0, 0.0, 0.0]
+
+# Convert a list to geometry_msgs.msg.Quaternion
+msg_quat = Quaternion(x=quat_tf[0], y=quat_tf[1], z=quat_tf[2], w=quat_tf[3])
+
+print(msg_quat)
 ```
 {% endraw %}
