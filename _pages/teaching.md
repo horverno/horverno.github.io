@@ -9,7 +9,7 @@ nav_order: 6
 
 # Current subjects
 
-Autonomous robots and vehicles software engineering `GKNB_AUTM078` is a hungarian course where ROS 2 is used: [sze-info.github.io/arj](https://sze-info.github.io/arj/)
+Autonomous robots and vehicles software engineering `GKNB_AUTM078` is a hungarian course where ROS 2 is used: [sze-info.github.io/ajr](https://sze-info.github.io/ajr/)
 
 # Thesis consultation
 
